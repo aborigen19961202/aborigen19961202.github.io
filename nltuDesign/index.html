@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Parallax.js | Simple Example</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <body>
+    <div class="clouds">
+      <div class="cloud"> </div>
+    </div>
+    <div class="sun"> </div>
+    <div class="island">
+      <div class="island__departamentA"><a href="#"><img src="images/flyIsland.png"></a></div>
+      <div class="island__departament">
+        <div data-depth="0.80"><img src="images/flyIsland.png"></div>
+      </div>
+      <div class="island__hostelA"><a href="#"><img src="images/flyIsland.png"></a></div>
+      <div class="island__hostel">
+        <div data-depth="0.50"><img src="images/flyIsland.png"></div>
+      </div>
+      <div class="island__nonameA"><a href="#"><img src="images/flyIsland.png"></a></div>
+      <div class="island__noname">
+        <div data-depth="0.60"><img src="images/flyIsland.png"></div>
+      </div>
+    </div>
+    <script src="js/parallax.js"></script>
+    <script>
+      var island__departament = document.getElementsByClassName('island__departament')[0];
+      var parallax = new Parallax(island__departament);
+      var island__hostel = document.getElementsByClassName('island__hostel')[0];
+      var parallax = new Parallax(island__hostel);
+      var island__noname = document.getElementsByClassName('island__noname')[0];
+      var parallax = new Parallax(island__noname);
+    </script>
+  </body>
+</head>
