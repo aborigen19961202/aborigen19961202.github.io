@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic");
 * {
   padding: 0;
   margin: 0;
@@ -746,22 +747,22 @@ body {
     display: block; }
   .island__departament {
     position: absolute;
-    width: 20%;
+    width: 30%;
     top: 55%;
     left: 50%;
-    margin-left: -10%;
-    margin-top: -10%;
+    margin-left: -15%;
+    margin-top: -15%;
     -webkit-animation: departamentTop 4s alternate ease-in-out infinite, departamentLeft 6s alternate ease-in-out infinite;
     -moz-animation: departamentTop 4s alternate ease-in-out infinite, departamentLeft 6s alternate ease-in-out infinite;
     -o-animation: departamentTop 4s alternate ease-in-out infinite, departamentLeft 6s alternate ease-in-out infinite;
     animation: departamentTop 4s alternate ease-in-out infinite, departamentLeft 6s alternate ease-in-out infinite; }
   .island__departamentA {
     position: absolute;
-    width: 20%;
+    width: 30%;
     top: 55%;
     left: 50%;
-    margin-left: -10%;
-    margin-top: -10%;
+    margin-left: -15%;
+    margin-top: -15%;
     -webkit-animation: departamentTop 4s alternate ease-in-out infinite, departamentLeft 6s alternate ease-in-out infinite;
     -moz-animation: departamentTop 4s alternate ease-in-out infinite, departamentLeft 6s alternate ease-in-out infinite;
     -o-animation: departamentTop 4s alternate ease-in-out infinite, departamentLeft 6s alternate ease-in-out infinite;
@@ -769,11 +770,11 @@ body {
     opacity: 0; }
   .island__hostel {
     position: absolute;
-    width: 15%;
+    width: 20%;
     top: 65%;
     left: 80%;
-    margin-left: -7%;
-    margin-top: -7%;
+    margin-left: -10%;
+    margin-top: -10%;
     -webkit-animation: hostelTop 5s alternate ease-in-out infinite, hostelLeft 6s alternate ease-in-out infinite;
     -moz-animation: hostelTop 5s alternate ease-in-out infinite, hostelLeft 6s alternate ease-in-out infinite;
     -o-animation: hostelTop 5s alternate ease-in-out infinite, hostelLeft 6s alternate ease-in-out infinite;
@@ -781,11 +782,11 @@ body {
   .island__hostelA {
     background-color: blue;
     position: absolute;
-    width: 15%;
+    width: 20%;
     top: 65%;
     left: 80%;
-    margin-left: -7%;
-    margin-top: -7%;
+    margin-left: -10%;
+    margin-top: -10%;
     -webkit-animation: hostelTop 5s alternate ease-in-out infinite, hostelLeft 6s alternate ease-in-out infinite;
     -moz-animation: hostelTop 5s alternate ease-in-out infinite, hostelLeft 6s alternate ease-in-out infinite;
     -o-animation: hostelTop 5s alternate ease-in-out infinite, hostelLeft 6s alternate ease-in-out infinite;
@@ -793,11 +794,11 @@ body {
     opacity: 0; }
   .island__galery {
     position: absolute;
-    width: 10%;
+    width: 14%;
     top: 55%;
     left: 18%;
-    margin-left: -5%;
-    margin-top: -5%;
+    margin-left: -7%;
+    margin-top: -7%;
     -webkit-animation: galeryTop 4s alternate ease-in-out infinite, galeryLeft 6s alternate ease-in-out infinite;
     -moz-animation: galeryTop 4s alternate ease-in-out infinite, galeryLeft 6s alternate ease-in-out infinite;
     -o-animation: galeryTop 4s alternate ease-in-out infinite, galeryLeft 6s alternate ease-in-out infinite;
@@ -805,11 +806,11 @@ body {
   .island__galeryA {
     background-color: blue;
     position: absolute;
-    width: 10%;
+    width: 14%;
     top: 55%;
     left: 18%;
-    margin-left: -5%;
-    margin-top: -5%;
+    margin-left: -7%;
+    margin-top: -7%;
     -webkit-animation: galeryTop 4s alternate ease-in-out infinite, galeryLeft 6s alternate ease-in-out infinite;
     -moz-animation: galeryTop 4s alternate ease-in-out infinite, galeryLeft 6s alternate ease-in-out infinite;
     -o-animation: galeryTop 4s alternate ease-in-out infinite, galeryLeft 6s alternate ease-in-out infinite;
@@ -841,11 +842,11 @@ body {
     opacity: 0; }
   .island__aerostat {
     position: absolute;
-    width: 6%;
+    width: 8%;
     top: 32%;
     left: 32%;
-    margin-left: -3%;
-    margin-top: -3%;
+    margin-left: -4%;
+    margin-top: -4%;
     -webkit-animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
     -moz-animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
     -o-animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
@@ -853,11 +854,11 @@ body {
   .island__aerostatA {
     background-color: blue;
     position: absolute;
-    width: 6%;
+    width: 8%;
     top: 32%;
     left: 32%;
-    margin-left: -3%;
-    margin-top: -3%;
+    margin-left: -4%;
+    margin-top: -4%;
     -webkit-animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
     -moz-animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
     -o-animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
@@ -978,3 +979,25 @@ body {
     -moz-animation: moonTop 4s alternate ease-in-out infinite, moonLeft 6s alternate ease-in-out infinite;
     -o-animation: moonTop 4s alternate ease-in-out infinite, moonLeft 6s alternate ease-in-out infinite;
     animation: moonTop 4s alternate ease-in-out infinite, moonLeft 6s alternate ease-in-out infinite; }
+
+.developPage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+  .developPage__info {
+    position: absolute;
+    background: #0c6ca8;
+    padding: 50px 50px;
+    width: 50%;
+    top: 20%;
+    left: 50%;
+    margin-left: -25%;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; }
+    .developPage__info span {
+      font-size: 72px;
+      color: #cae7f8;
+      font-family: lobster;
+      letter-spacing: 7px;
+      text-shadow: 1px 1px #F3E7CF, -1px -1px #56433D; }
