@@ -764,6 +764,7 @@ body {
     font-family: Open Sans;
     font-size: 45px;
     position: absolute;
+    z-index: 1;
     bottom: 10%;
     margin-left: 30%;
     padding: 10px 30px;
@@ -776,19 +777,19 @@ body {
     font-family: Open Sans;
     font-size: 35px;
     position: absolute;
-    bottom: 10%;
+    bottom: -15%;
     margin-left: 28%;
     padding: 10px 30px;
     text-align: center;
     color: #d4f0b3;
     -webkit-border-radius: 15px;
     border-radius: 15px;
-    background: rgba(44, 152, 208, 0.8); }
+    background: rgba(44, 152, 208, 0.6); }
   .island .hoverTitle__galery {
     font-family: Open Sans;
     font-size: 30px;
     position: absolute;
-    bottom: 10%;
+    bottom: -25%;
     margin-left: 20%;
     padding: 10px 30px;
     text-align: center;
@@ -800,7 +801,7 @@ body {
     font-family: Open Sans;
     font-size: 25px;
     position: absolute;
-    bottom: 10%;
+    bottom: -25%;
     margin-left: 3%;
     padding: 10px 30px;
     text-align: center;
@@ -822,6 +823,7 @@ body {
     background: rgba(44, 152, 208, 0.6); }
   .island__departament {
     position: absolute;
+    z-index: 1;
     top: 55%;
     left: 50%;
     width: 30%;
