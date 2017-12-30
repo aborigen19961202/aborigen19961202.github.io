@@ -777,6 +777,7 @@ body {
     font-family: Open Sans;
     font-size: 35px;
     position: absolute;
+    z-index: 1;
     bottom: -15%;
     margin-left: 28%;
     padding: 10px 30px;
@@ -789,6 +790,7 @@ body {
     font-family: Open Sans;
     font-size: 30px;
     position: absolute;
+    z-index: 1;
     bottom: -25%;
     margin-left: 20%;
     padding: 10px 30px;
@@ -847,6 +849,7 @@ body {
     opacity: 0; }
   .island__hostel {
     position: absolute;
+    z-index: 1;
     top: 65%;
     left: 80%;
     width: 20%;
@@ -871,6 +874,7 @@ body {
     background-color: blue; }
   .island__galery {
     position: absolute;
+    z-index: 1;
     top: 55%;
     left: 18%;
     width: 14%;
@@ -943,6 +947,7 @@ body {
     background-color: blue; }
   .island__cloud1 {
     position: absolute;
+    z-index: 999;
     top: 20%;
     left: 85%;
     width: 10%;
@@ -954,6 +959,7 @@ body {
     animation: cloud1Top 12s alternate ease-in-out infinite, cloud1Left 10s alternate ease-in-out infinite; }
   .island__cloud2 {
     position: absolute;
+    z-index: 999;
     top: 20%;
     left: 15%;
     width: 10%;
@@ -965,6 +971,7 @@ body {
     animation: cloud2Top 12s alternate ease-in-out infinite, cloud2Left 10s alternate ease-in-out infinite; }
   .island__cloud3 {
     position: absolute;
+    z-index: 999;
     top: 12%;
     left: 50%;
     width: 8%;
@@ -981,6 +988,7 @@ body {
     animation: cloud3Top 12s alternate ease-in-out infinite, cloud3Left 10s alternate ease-in-out infinite; }
   .island__cloud4 {
     position: absolute;
+    z-index: 999;
     top: 95%;
     left: 35%;
     width: 6%;
@@ -992,6 +1000,7 @@ body {
     animation: cloud4Top 10s alternate ease-in-out infinite, cloud4Left 12s alternate ease-in-out infinite; }
   .island__cloud5 {
     position: absolute;
+    z-index: 999;
     top: 95%;
     left: 65%;
     width: 6%;
@@ -1003,6 +1012,7 @@ body {
     animation: cloud5Top 10s alternate ease-in-out infinite, cloud5Left 12s alternate ease-in-out infinite; }
   .island__cloud6 {
     position: absolute;
+    z-index: 999;
     top: 40%;
     left: 95%;
     width: 6%;
@@ -1014,6 +1024,7 @@ body {
     animation: cloud6Top 10s alternate ease-in-out infinite, cloud6Left 12s alternate ease-in-out infinite; }
   .island__cloud7 {
     position: absolute;
+    z-index: 999;
     top: 90%;
     left: 6%;
     width: 10%;
@@ -1025,6 +1036,7 @@ body {
     animation: cloud7Top 10s alternate ease-in-out infinite, cloud7Left 12s alternate ease-in-out infinite; }
   .island__cloud8 {
     position: absolute;
+    z-index: 999;
     top: 87%;
     left: 88%;
     width: 10%;
