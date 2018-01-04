@@ -1,77 +1,152 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="utf-8">
-  <title>Parallax.js | Simple Example</title>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+<html lang="ua">
+  <head>
+    <meta charset="utf-8">
+    <title>Кафедра дизайну НЛТУ</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
   <body>
-    <div class="clouds">
-      <div class="cloud"> </div>
-    </div>
-    <div class="sun"> </div>
-    <div class="island">
-      <div class="island__departamentA"><a href="dev.html"><img src="images/kafedra.svg">
-          <div class="hoverTitle__departament">Кафедра</div></a></div>
-      <div class="island__departament">
-        <div data-depth="0.80"><img src="images/kafedra.svg">
-          <div class="hoverTitle__departament">Кафедра</div>
+    <div class="header">
+      <div class="header__filling">
+        <div class="island">
+          <div class="island__departament">
+            <div data-depth="0.80"><img src="images/kafedra.svg" alt="kafedra"></div>
+          </div>
+          <div class="island__hostel">
+            <div data-depth="0.50"><img src="images/hostel.svg"></div>
+          </div>
+          <div class="island__galery">
+            <div data-depth="0.70"><img src="images/galery.svg"></div>
+          </div>
+          <div class="island__biblio">
+            <div data-depth="0.60"><img src="images/biblio.svg"></div>
+          </div>
+          <div class="island__aerostat">
+            <div data-depth="0.50"><img src="images/aerostat.svg"></div>
+          </div>
+          <div class="island__cloud1">
+            <div data-depth="0.60"><img src="images/cloud1.svg"></div>
+          </div>
+          <div class="island__cloud2">
+            <div data-depth="0.50"><img src="images/cloud2.svg"></div>
+          </div>
+          <div class="island__cloud3">
+            <div data-depth="0.60"><img src="images/cloud3.svg"></div>
+          </div>
+          <div class="island__cloud4">
+            <div data-depth="0.80"><img src="images/cloud4.svg"></div>
+          </div>
+          <div class="island__cloud5">
+            <div data-depth="0.80"><img src="images/cloud1.svg"></div>
+          </div>
+          <div class="island__cloud6">
+            <div data-depth="0.80"><img src="images/cloud1.svg"></div>
+          </div>
+          <div class="island__cloud7">
+            <div data-depth="0.80"><img src="images/cloud1.svg"></div>
+          </div>
+          <div class="island__cloud8">
+            <div data-depth="0.50"><img src="images/cloud2.svg"></div>
+          </div>
         </div>
       </div>
-      <div class="island__hostelA"><a href="dev.html"><img src="images/hostel.svg">
-          <div class="hoverTitle__hostel">Хостел</div></a></div>
-      <div class="island__hostel">
-        <div data-depth="0.50"><img src="images/hostel.svg">
-          <div class="hoverTitle__hostel">Хостел</div>
+      <div class="header__top">
+        <div class="header__menu">
+          <li><a href="news.html">Новини</a></li>
+          <li><a href="pay.html">Кафедра</a></li>
+          <li><a href="guarantees.html">Склад</a></li>
+          <li><a href="contacts.html">Контакти</a></li>
+          <li><a href="components.html">Галерея</a></li>
         </div>
-      </div>
-      <div class="island__galeryA"><a href="dev.html"><img src="images/galery.svg">
-          <div class="hoverTitle__galery">Галерея	</div></a></div>
-      <div class="island__galery">
-        <div data-depth="0.70"><img src="images/galery.svg">
-          <div class="hoverTitle__galery">Галерея	</div>
-        </div>
-      </div>
-      <div class="island__biblioA"><a href="dev.html"><img src="images/biblio.svg">
-          <div class="hoverTitle__biblio">Бібліотека</div></a></div>
-      <div class="island__biblio">
-        <div data-depth="0.60"><img src="images/biblio.svg">
-          <div class="hoverTitle__biblio">Бібліотека</div>
-        </div>
-      </div>
-      <div class="island__aerostatA"><a href="dev.html"><img src="images/aerostat.svg">
-          <div class="hoverTitle__aerostat">Аеростат</div></a></div>
-      <div class="island__aerostat">
-        <div data-depth="0.50"><img src="images/aerostat.svg">
-          <div class="hoverTitle__aerostat">Аеростат</div>
-        </div>
-      </div>
-      <div class="island__cloud1">
-        <div data-depth="0.60"><img src="images/cloud1.svg"></div>
-      </div>
-      <div class="island__cloud2">
-        <div data-depth="0.50"><img src="images/cloud2.svg"></div>
-      </div>
-      <div class="island__cloud3">
-        <div data-depth="0.60"><img src="images/cloud3.svg"></div>
-      </div>
-      <div class="island__cloud4">
-        <div data-depth="0.80"><img src="images/cloud4.svg"></div>
-      </div>
-      <div class="island__cloud5">
-        <div data-depth="0.80"><img src="images/cloud1.svg"></div>
-      </div>
-      <div class="island__cloud6">
-        <div data-depth="0.80"><img src="images/cloud1.svg"></div>
-      </div>
-      <div class="island__cloud7">
-        <div data-depth="0.80"><img src="images/cloud1.svg"></div>
-      </div>
-      <div class="island__cloud8">
-        <div data-depth="0.50"><img src="images/cloud2.svg"></div>
+        <div class="header__logo"><a href="#">
+            <div class="header__logo_nltu pull-left">НЛТУ</div>
+            <div class="header__logo_design pull-left"> <span>Кафедра</span><span>Дизайну</span></div></a></div>
       </div>
     </div>
-    <div class="main">test</div>
+    <div class="main">
+      <div class="wrapper">
+        <h2>Новини та події</h2>
+        <div class="main__article">
+          <div class="col-3">
+            <div class="main__article_news">
+              <ul>
+                <li><a href="components.html"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку">
+                    <h4>Вкрали курку</h4></a><a href="#">
+                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="pay.html"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст">
+                    <h4>Тут тіпа текст</h4></a><a href="#">
+                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="guarantees.html"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі">
+                    <h4>Бурсакє побили тарелі</h4></a><a href="#">
+                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="components.html"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку">
+                    <h4>Вкрали курку</h4></a><a href="#">
+                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="pay.html"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст">
+                    <h4>Тут тіпа текст</h4></a><a href="#">
+                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="guarantees.html"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі">
+                    <h4>Бурсакє побили тарелі</h4></a><a href="#">
+                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="components.html"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку">
+                    <h4>Вкрали курку</h4></a><a href="#">
+                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="pay.html"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст">
+                    <h4>Тут тіпа текст</h4></a><a href="#">
+                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="guarantees.html"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі">
+                    <h4>Бурсакє побили тарелі</h4></a><a href="#">
+                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__top">
+        <div class="wrapper">
+          <div class="col-4">footer</div>
+        </div>
+      </div>
+      <div class="footer__bot">
+        <div class="wrapper"></div>
+      </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script>
       var island__departament = document.getElementsByClassName('island__departament')[0];
@@ -86,4 +161,4 @@
       var parallax = new Parallax(island__aerostat);
     </script>
   </body>
-</head>
+</html>
