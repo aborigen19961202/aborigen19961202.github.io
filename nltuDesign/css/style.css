@@ -801,8 +801,8 @@ html, body {
       color: #fff; }
 
 .wrapper {
-  margin: 0 auto;
-  max-width: 1420px; }
+  max-width: 1420px;
+  margin: 5px auto; }
 
 .btn {
   font-size: 1.2em;
@@ -829,6 +829,7 @@ html, body {
     height: 100%; }
   .island__departament {
     position: absolute;
+    z-index: 1;
     top: 55%;
     left: 50%;
     width: 30%;
@@ -840,6 +841,7 @@ html, body {
     animation: departamentTop 4s alternate ease-in-out infinite, departamentLeft 6s alternate ease-in-out infinite; }
   .island__hostel {
     position: absolute;
+    z-index: 1;
     top: 65%;
     left: 80%;
     width: 20%;
@@ -851,6 +853,7 @@ html, body {
     animation: hostelTop 5s alternate ease-in-out infinite, hostelLeft 6s alternate ease-in-out infinite; }
   .island__galery {
     position: absolute;
+    z-index: 1;
     top: 55%;
     left: 18%;
     width: 14%;
@@ -870,7 +873,9 @@ html, body {
     -webkit-animation: biblioTop 4s alternate ease-in-out infinite, biblioLeft 6s alternate ease-in-out infinite;
     -moz-animation: biblioTop 4s alternate ease-in-out infinite, biblioLeft 6s alternate ease-in-out infinite;
     -o-animation: biblioTop 4s alternate ease-in-out infinite, biblioLeft 6s alternate ease-in-out infinite;
-    animation: biblioTop 4s alternate ease-in-out infinite, biblioLeft 6s alternate ease-in-out infinite; }
+    animation: biblioTop 4s alternate ease-in-out infinite, biblioLeft 6s alternate ease-in-out infinite;
+    -webkit-filter: blur(0.6px);
+    filter: blur(0.6px); }
   .island__aerostat {
     position: absolute;
     top: 32%;
@@ -881,7 +886,9 @@ html, body {
     -webkit-animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
     -moz-animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
     -o-animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
-    animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite; }
+    animation: aerostatTop 4s alternate ease-in-out infinite, aerostatLeft 6s alternate ease-in-out infinite;
+    -webkit-filter: blur(0.6px);
+    filter: blur(0.6px); }
   .island__cloud1 {
     position: absolute;
     top: 20%;
@@ -975,6 +982,18 @@ html, body {
     -moz-animation: cloud8Top 10s alternate ease-in-out infinite, cloud8Left 12s alternate ease-in-out infinite;
     -o-animation: cloud8Top 10s alternate ease-in-out infinite, cloud8Left 12s alternate ease-in-out infinite;
     animation: cloud8Top 10s alternate ease-in-out infinite, cloud8Left 12s alternate ease-in-out infinite; }
+  .island__cloud9 {
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 90%;
+    width: 10%;
+    margin-top: -5%;
+    margin-left: -2%;
+    -webkit-animation: cloud9Top 10s alternate ease-in-out infinite, cloud9Left 12s alternate ease-in-out infinite;
+    -moz-animation: cloud9Top 10s alternate ease-in-out infinite, cloud9Left 12s alternate ease-in-out infinite;
+    -o-animation: cloud9Top 10s alternate ease-in-out infinite, cloud9Left 12s alternate ease-in-out infinite;
+    animation: cloud9Top 10s alternate ease-in-out infinite, cloud9Left 12s alternate ease-in-out infinite; }
   .island__sun {
     position: absolute;
     top: 40%;
@@ -1021,6 +1040,7 @@ html, body {
       text-shadow: 1px 1px #f3e7cf, -1px -1px #56433d; }
 
 .main {
+  position: relative;
   padding-top: 50px;
   background: #c3fcff;
   /* Old browsers */
@@ -1035,27 +1055,40 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3fcff', endColorstr='#e7f9fa',GradientType=0 );
   /* IE6-9 */ }
   .main h2 {
-    text-align: center;
-    padding: 20px 0; }
+    padding: 20px 0;
+    text-align: center; }
   .main__article {
+    padding-bottom: 50px;
     text-align: left; }
     .main__article_news {
-      padding: 20px;
-      background-color: white;
+      z-index: 2;
+      overflow: hidden;
       margin: 20px;
+      padding: 10px;
+      background-color: white;
       -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); }
-      .main__article_news ul {
-        height: 400px; }
       .main__article_news h2 {
         display: inline-block; }
-      .main__article_news img {
-        margin-bottom: 15px;
-        max-height: 100%;
-        width: auto; }
-      .main__article_news span {
+      .main__article_news h4 {
+        font-weight: 600;
+        padding: 10px 0;
+        color: #707070; }
+        .main__article_news h4:hover,
+        .main__article_news h4 :active {
+          color: #2d8cc6; }
+      .main__article_news h6 {
         display: inline;
-        margin: 10px 0; }
+        color: #999; }
+      .main__article_news img {
+        width: auto;
+        max-height: 100%; }
+      .main__article_news span {
+        font-size: 15px;
+        font-weight: 200;
+        display: inline;
+        margin: 10px 0;
+        color: #999; }
 
 .icon {
   display: inline-block;
@@ -1066,6 +1099,31 @@ html, body {
     height: 182px;
     background-position: -25px -8px; }
 
+.bg-fix__1 {
+  background-image: url(../images/1.jpg);
+  background-attachment: fixed;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.bg-fix__2 {
+  background-image: url(../images/2.jpg);
+  background-attachment: fixed;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.bg-fix__3 {
+  background-image: url(../images/3.jpg);
+  background-attachment: fixed;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.overlay {
+  margin: 0 -5px 50px;
+  padding-bottom: 500px;
+  background: rgba(35, 133, 161, 0.4);
+  -webkit-box-shadow: inset 0 0 5px 3px rgba(48, 77, 88, 0.3);
+  box-shadow: inset 0 0 5px 3px rgba(48, 77, 88, 0.3); }
+
 .footer {
-  background: url("https://image.ibb.co/jTqYPw/ctabg.png") repeat;
-  padding: 45px 0; }
+  padding: 200px 0;
+  background: url("https://image.ibb.co/jTqYPw/ctabg.png") repeat; }

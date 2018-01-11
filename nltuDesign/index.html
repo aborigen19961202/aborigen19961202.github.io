@@ -6,6 +6,10 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/lightslider.css">
   </head>
   <body>
     <div class="header">
@@ -26,30 +30,16 @@
           <div class="island__aerostat">
             <div data-depth="0.50"><img src="images/aerostat.svg"></div>
           </div>
-          <div class="island__cloud1">
-            <div data-depth="0.60"><img src="images/cloud1.svg"></div>
-          </div>
-          <div class="island__cloud2">
-            <div data-depth="0.50"><img src="images/cloud2.svg"></div>
-          </div>
-          <div class="island__cloud3">
-            <div data-depth="0.60"><img src="images/cloud3.svg"></div>
-          </div>
-          <div class="island__cloud4">
-            <div data-depth="0.80"><img src="images/cloud4.svg"></div>
-          </div>
-          <div class="island__cloud5">
-            <div data-depth="0.80"><img src="images/cloud1.svg"></div>
-          </div>
+          <div class="island__cloud1"><img src="images/cloud1.svg"></div>
+          <div class="island__cloud2"><img src="images/cloud2.svg"></div>
+          <div class="island__cloud3"><img src="images/cloud3.svg"></div>
+          <div class="island__cloud4"><img src="images/cloud4.svg"></div>
+          <div class="island__cloud5"><img src="images/cloud1.svg"></div>
           <div class="island__cloud6">
             <div data-depth="0.80"><img src="images/cloud1.svg"></div>
           </div>
-          <div class="island__cloud7">
-            <div data-depth="0.80"><img src="images/cloud1.svg"></div>
-          </div>
-          <div class="island__cloud8">
-            <div data-depth="0.50"><img src="images/cloud2.svg"></div>
-          </div>
+          <div class="island__cloud7"><img src="images/cloud1.svg"></div>
+          <div class="island__cloud8"><img src="images/cloud2.svg"></div>
         </div>
       </div>
       <div class="header__top">
@@ -66,6 +56,7 @@
       </div>
     </div>
     <div class="main">
+      <div class="island__cloud9"><img src="images/cloud1.svg"></div>
       <div class="wrapper">
         <h2>Новини та події</h2>
         <div class="main__article">
@@ -73,68 +64,77 @@
             <div class="main__article_news">
               <ul>
                 <li><a href="components.html"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку">
-                    <h4>Вкрали курку</h4></a><a href="#">
-                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+                    <h6>31.12.2017</h6>
+                    <h6 class="pull-right">comments</h6></a><a href="#">
+                    <h4>Вкрали курку</h4></a><span>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий.</span></li>
               </ul>
             </div>
             <div class="main__article_news">
               <ul>
                 <li><a href="pay.html"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст">
-                    <h4>Тут тіпа текст</h4></a><a href="#">
-                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+                    <h6>31.12.2017</h6>
+                    <h6 class="pull-right">comments</h6></a><a href="#">
+                    <h4>Тут тіпа текст</h4></a><span>Повседневная практика показывает, что дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</span></li>
               </ul>
             </div>
             <div class="main__article_news">
               <ul>
                 <li><a href="guarantees.html"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі">
-                    <h4>Бурсакє побили тарелі</h4></a><a href="#">
-                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
-              </ul>
-            </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="components.html"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку">
-                    <h4>Вкрали курку</h4></a><a href="#">
-                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
-              </ul>
-            </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="pay.html"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст">
-                    <h4>Тут тіпа текст</h4></a><a href="#">
-                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
-              </ul>
-            </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="guarantees.html"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі">
-                    <h4>Бурсакє побили тарелі</h4></a><a href="#">
-                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
-              </ul>
-            </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="components.html"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку">
-                    <h4>Вкрали курку</h4></a><a href="#">
-                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
-              </ul>
-            </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="pay.html"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст">
-                    <h4>Тут тіпа текст</h4></a><a href="#">
-                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
-              </ul>
-            </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="guarantees.html"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі">
-                    <h4>Бурсакє побили тарелі</h4></a><a href="#">
-                    <h6>31.12.2017</h6><span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span></a></li>
+                    <h6>31.12.2017</h6>
+                    <h6 class="pull-right">comments</h6></a><a href="#">
+                    <h4>Бурсакє побили тарелі</h4></a><span>Товарищи! консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития.</span></li>
               </ul>
             </div>
           </div>
         </div>
+      </div>
+      <div class="bg-fix__1">
+        <div class="overlay"></div>
+      </div>
+      <div class="wrapper">
+        <h2>Новини та події</h2>
+        <div class="main__article">
+          <div class="col-3">
+            <div class="main__article_news">
+              <ul>
+                <li><a href="components.html"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку">
+                    <h6>31.12.2017</h6>
+                    <h6 class="pull-right">comments</h6></a><a href="#">
+                    <h4>Вкрали курку</h4></a><span>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий.</span></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="pay.html"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст">
+                    <h6>31.12.2017</h6>
+                    <h6 class="pull-right">comments</h6></a><a href="#">
+                    <h4>Тут тіпа текст</h4></a><span>Повседневная практика показывает, что дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</span></li>
+              </ul>
+            </div>
+            <div class="main__article_news">
+              <ul>
+                <li><a href="guarantees.html"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі">
+                    <h6>31.12.2017</h6>
+                    <h6 class="pull-right">comments</h6></a><a href="#">
+                    <h4>Бурсакє побили тарелі</h4></a><span>Товарищи! консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-fix__2">
+        <div class="overlay"></div>
+      </div>
+      <ul id="lightSlider">
+        <li><img src="images/DSC_0208.jpg" alt="img"></li>
+        <li><img src="images/DSC_0208.jpg" alt="img"></li>
+        <li><img src="images/DSC_0208.jpg" alt="img"></li>
+        <li><img src="images/2.jpg" alt="img"></li>
+        <li><img src="images/3.jpg" alt="img"></li>
+        <li><img src="images/4.jpg" alt="img"></li>
+      </ul>
+      <div class="bg-fix__3">
+        <div class="overlay"></div>
       </div>
     </div>
     <div class="footer">
