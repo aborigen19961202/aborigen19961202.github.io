@@ -9,14 +9,16 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/lightslider.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/scr.js"></script>
     <link rel="stylesheet" href="css/lightslider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="header">
       <div class="header__filling">
         <div class="island">
           <div class="island__departament">
-            <div data-depth="0.80"><img src="images/kafedra.svg" alt="kafedra"></div>
+            <div data-depth="0.80"><img src="images/kafedra.svg" alt="kafedra" title="Кафедра"></div>
           </div>
           <div class="island__hostel">
             <div data-depth="0.50"><img src="images/hostel.svg"></div>
@@ -59,82 +61,495 @@
       <div class="island__cloud9"><img src="images/cloud1.svg"></div>
       <div class="wrapper">
         <h2>Новини та події</h2>
-        <div class="main__article">
+        <div class="article">
           <div class="col-3">
-            <div class="main__article_news">
-              <ul>
-                <li><a href="components.html"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку">
-                    <h6>31.12.2017</h6>
-                    <h6 class="pull-right">comments</h6></a><a href="#">
-                    <h4>Вкрали курку</h4></a><span>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий.</span></li>
-              </ul>
+            <div class="article__news"><a href="#"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку" title="Вкрали курку"></a>
+              <div class="article__status"><a class="article__pubdate" href="#"><span>31.12.2017</span></a><a class="article__comments pull-right" href="#"><span class="fa fa-comment"></span> 20</a><a class="article__views pull-right" href="#"><span class="fa fa-eye"></span> 10</a></div>
+              <div class="article__intro"><a href="#">
+                  <h4>Вкрали курку</h4></a><span>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий.</span></div>
+              <div class="article__showmore"><a class="btn" href="#">Детальніше</a></div>
             </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="pay.html"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст">
-                    <h6>31.12.2017</h6>
-                    <h6 class="pull-right">comments</h6></a><a href="#">
-                    <h4>Тут тіпа текст</h4></a><span>Повседневная практика показывает, что дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</span></li>
-              </ul>
+            <div class="article__news"><a href="#"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст" title="Тут тіпа текст"></a>
+              <div class="article__status"><a class="article__pubdate" href="#"><span>31.12.2017</span></a><a class="article__comments pull-right" href="#"><span class="fa fa-comment"></span> 20</a><a class="article__views pull-right" href="#"><span class="fa fa-eye"></span> 10</a></div>
+              <div class="article__intro"><a href="#">
+                  <h4>Тут тіпа текст</h4></a><span>Повседневная практика показывает, что дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</span></div>
+              <div class="article__showmore"><a class="btn" href="#">Детальніше</a></div>
             </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="guarantees.html"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі">
-                    <h6>31.12.2017</h6>
-                    <h6 class="pull-right">comments</h6></a><a href="#">
-                    <h4>Бурсакє побили тарелі</h4></a><span>Товарищи! консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития.</span></li>
-              </ul>
+            <div class="article__news"><a href="#"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі" title="Бурсакє побили тарелі"></a>
+              <div class="article__status"><a class="article__pubdate" href="#"><span>31.12.2017</span></a><a class="article__comments pull-right" href="#"><span class="fa fa-comment"></span> 20</a><a class="article__views pull-right" href="#"><span class="fa fa-eye"></span> 10</a></div>
+              <div class="article__intro"><a href="#">
+                  <h4>Бурсакє побили тарелі</h4></a><span>Товарищи! консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развитияТоварищи! консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития.</span></div>
+              <div class="article__showmore"><a class="btn" href="#">Детальніше</a></div>
             </div>
           </div>
         </div>
       </div>
       <div class="bg-fix__1">
-        <div class="overlay"></div>
+        <div class="overlay">
+          <h2><a href="#" title="Поступити">Втільте ваші творчі мрії в життя в мистецтві дизайну</a></h2>
+        </div>
       </div>
       <div class="wrapper">
         <h2>Новини та події</h2>
-        <div class="main__article">
+        <div class="article">
           <div class="col-3">
-            <div class="main__article_news">
-              <ul>
-                <li><a href="components.html"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку">
-                    <h6>31.12.2017</h6>
-                    <h6 class="pull-right">comments</h6></a><a href="#">
-                    <h4>Вкрали курку</h4></a><span>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий.</span></li>
-              </ul>
+            <div class="article__news"><a href="#"><img src="http://www.barvadesign.com/sites/default/files/images/gost01_4.jpg" alt="Вкрали курку" title="Вкрали курку"></a>
+              <div class="article__status"><a class="article__pubdate" href="#"><span>31.12.2017</span></a><a class="article__comments pull-right" href="#"><span class="fa fa-comment"></span> 20</a><a class="article__views pull-right" href="#"><span class="fa fa-eye"></span> 10</a></div>
+              <div class="article__intro"><a href="#">
+                  <h4>Вкрали курку</h4></a><span>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации существенных финансовых и административных условий.</span></div>
+              <div class="article__showmore"><a class="btn" href="#">Детальніше</a></div>
             </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="pay.html"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст">
-                    <h6>31.12.2017</h6>
-                    <h6 class="pull-right">comments</h6></a><a href="#">
-                    <h4>Тут тіпа текст</h4></a><span>Повседневная практика показывает, что дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</span></li>
-              </ul>
+            <div class="article__news"><a href="#"><img src="http://стройдиз.рф/press/wp-content/uploads/2016/11/%D1%84%D0%BE%D1%82%D0%BE-8-2-1024x512.jpg" alt="Тут тіпа текст" title="Тут тіпа текст"></a>
+              <div class="article__status"><a class="article__pubdate" href="#"><span>31.12.2017</span></a><a class="article__comments pull-right" href="#"><span class="fa fa-comment"></span> 20</a><a class="article__views pull-right" href="#"><span class="fa fa-eye"></span> 10</a></div>
+              <div class="article__intro"><a href="#">
+                  <h4>Тут тіпа текст</h4></a><span>Повседневная практика показывает, что дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</span></div>
+              <div class="article__showmore"><a class="btn" href="#">Детальніше</a></div>
             </div>
-            <div class="main__article_news">
-              <ul>
-                <li><a href="guarantees.html"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі">
-                    <h6>31.12.2017</h6>
-                    <h6 class="pull-right">comments</h6></a><a href="#">
-                    <h4>Бурсакє побили тарелі</h4></a><span>Товарищи! консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития.</span></li>
-              </ul>
+            <div class="article__news"><a href="#"><img src="http://idesign.today/wp-content/uploads/2016/03/dizain-kuhni-1024x512.jpg" alt="Бурсакє побили тарелі" title="Бурсакє побили тарелі"></a>
+              <div class="article__status"><a class="article__pubdate" href="#"><span>31.12.2017</span></a><a class="article__comments pull-right" href="#"><span class="fa fa-comment"></span> 20</a><a class="article__views pull-right" href="#"><span class="fa fa-eye"></span> 10</a></div>
+              <div class="article__intro"><a href="#">
+                  <h4>Бурсакє побили тарелі</h4></a><span>Товарищи! консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развитияТоварищи! консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития.</span></div>
+              <div class="article__showmore"><a class="btn" href="#">Детальніше</a></div>
             </div>
           </div>
         </div>
       </div>
       <div class="bg-fix__2">
+        <div class="overlay">
+          <h2><a href="#" title="Поступити">Для вас відкриті двері нашої кафедри та навчальних аудиторій</a></h2>
+        </div>
+      </div>
+      <div class="bg-section">
+        <div class="wrapper">
+          <div class="about" id="lightSlider">
+            <div class="about__wrapper">
+              <div class="col-1-3">
+                <div class="profile">
+                  <div class="userImg"><img src="http://wiki.lp.edu.ua/wiki/images/8/80/Doa_Mygal.jpg" alt="Павло"></div><a href="#">Станіслав Мигаль</a>
+                </div>
+                <div class="quote">
+                  <p>1Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития. Разнообразный и богатый опыт укрепление и развитие структуры в значительной степени обуславливает создание направлений прогрессивного развития.2Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития. Разнообразный и богатый опыт укрепление и развитие структуры в значительной степени обуславливает создание направлений прогрессивного развития.</p>
+                </div>
+              </div>
+            </div>
+            <div class="about__wrapper">
+              <div class="col-1-3">
+                <div class="profile">
+                  <div class="userImg"><img src="http://wiki.lp.edu.ua/wiki/images/8/80/Doa_Mygal.jpg" alt="Павло"></div><a href="#">Станіслав Мигаль</a>
+                </div>
+                <div class="quote">
+                  <p>2Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития. Разнообразный и богатый опыт укрепление и развитие структуры в значительной степени обуславливает создание направлений прогрессивного развития.2Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития. Разнообразный и богатый опыт укрепление и развитие структуры в значительной степени обуславливает создание направлений прогрессивного развития.</p>
+                </div>
+              </div>
+            </div>
+            <div class="about__wrapper">
+              <div class="col-1-3">
+                <div class="profile">
+                  <div class="userImg"><img src="http://wiki.lp.edu.ua/wiki/images/8/80/Doa_Mygal.jpg" alt="Павло"></div><a href="#">Станіслав Мигаль</a>
+                </div>
+                <div class="quote">
+                  <p>3Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития. Разнообразный и богатый опыт укрепление и развитие структуры в значительной степени обуславливает создание направлений прогрессивного развития.2Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития. Разнообразный и богатый опыт укрепление и развитие структуры в значительной степени обуславливает создание направлений прогрессивного развития.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-fix__3">
+        <div class="overlay">
+          <h2><a href="#" title="Поступити">Розкрийте свій потенціал</a></h2>
+        </div>
+      </div>
+      <div id="map">
+        <script>
+          function initMap() {
+          	var element = document.getElementById('map');
+          	
+          
+          	var options = {
+          		zoom: 16,
+          		center: {lat: 49.827106, lng: 23.996679},
+          		//- disableDefaultUI: true
+          		zoomControl: true,
+          		zoomControlOptions: {
+          			position: google.maps.ControlPosition.RIGHT_CENTER
+          		},
+          		mapTypeControl: false,
+          		streetViewControl: false,
+          		//- rotateControl: false,
+          		fullscreenControl: false,
+          		//- styles: [
+          		//- 	{
+          		//- 	"elementType": "geometry",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#ebe3cd"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"elementType": "labels.text.fill",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#523735"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"elementType": "labels.text.stroke",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#f5f1e6"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "administrative",
+          		//- 	"elementType": "geometry.stroke",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#c9b2a6"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "administrative.land_parcel",
+          		//- 	"elementType": "geometry.stroke",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#dcd2be"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "administrative.land_parcel",
+          		//- 	"elementType": "labels.text.fill",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#ae9e90"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "landscape.natural",
+          		//- 	"elementType": "geometry",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#dfd2ae"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "poi",
+          		//- 	"elementType": "geometry",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#dfd2ae"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "poi",
+          		//- 	"elementType": "labels.text.fill",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#93817c"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "poi.park",
+          		//- 	"elementType": "geometry.fill",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#a5b076"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "poi.park",
+          		//- 	"elementType": "labels.text.fill",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#447530"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "road",
+          		//- 	"elementType": "geometry",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#f5f1e6"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "road.arterial",
+          		//- 	"elementType": "geometry",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#fdfcf8"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "road.highway",
+          		//- 	"elementType": "geometry",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#f8c967"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "road.highway",
+          		//- 	"elementType": "geometry.stroke",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#e9bc62"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "road.highway.controlled_access",
+          		//- 	"elementType": "geometry",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#e98d58"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "road.highway.controlled_access",
+          		//- 	"elementType": "geometry.stroke",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#db8555"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "road.local",
+          		//- 	"elementType": "labels.text.fill",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#806b63"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "transit.line",
+          		//- 	"elementType": "geometry",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#dfd2ae"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "transit.line",
+          		//- 	"elementType": "labels.text.fill",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#8f7d77"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "transit.line",
+          		//- 	"elementType": "labels.text.stroke",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#ebe3cd"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "transit.station",
+          		//- 	"elementType": "geometry",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#dfd2ae"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "water",
+          		//- 	"elementType": "geometry.fill",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#b9d3c2"
+          		//- 	}
+          		//- 	]
+          		//- 	},
+          		//- 	{
+          		//- 	"featureType": "water",
+          		//- 	"elementType": "labels.text.fill",
+          		//- 	"stylers": [
+          		//- 	{
+          		//- 	"color": "#92998d"
+          		//- 	}
+          		//- 	]
+          		//- 	}
+          		//- 	]
+          	};
+          
+          	var myMap = new google.maps.Map(element, options);
+          
+          	var markers = [
+          		{
+          			coordinates: {lat: 49.827106, lng: 23.996679},
+          			info: '<h5>Кафедра дизайну ІДТД НЛТУ</h5>',
+          			image: 'images/marker.png'
+          		},
+          		//- {
+          		//- 	coordinates: {lat: 49.825181, lng: 24.002853},
+          		//- 	image: 'images/marker.png'
+          		//- },
+          	];
+          	
+          
+          	for(var i = 0; i < markers.length; i++){
+          		addMarker(markers[i]);
+          	}
+          
+          	function addMarker(properties) {
+          		var marker = new google.maps.Marker({
+          			position: properties.coordinates,
+          			map: myMap,
+          			animation: google.maps.Animation.BOUNCE,
+          		});
+          
+          		if(properties.image){
+          			marker.setIcon(properties.image);
+          		}
+          
+          		if(properties.info){
+          			var InfoWindow = new google.maps.InfoWindow({
+          				content: properties.info
+          			});
+          			
+          			marker.addListener('click', function(){
+          				InfoWindow.open(myMap, marker);
+          			})
+          		}
+          	}
+          }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfpJ4fMBwd4QvU_XFnv6dyvXFGEoop9TU&amp;callback=initMap"></script>
         <div class="overlay"></div>
       </div>
-      <ul id="lightSlider">
-        <li><img src="images/DSC_0208.jpg" alt="img"></li>
-        <li><img src="images/DSC_0208.jpg" alt="img"></li>
-        <li><img src="images/DSC_0208.jpg" alt="img"></li>
-        <li><img src="images/2.jpg" alt="img"></li>
-        <li><img src="images/3.jpg" alt="img"></li>
-        <li><img src="images/4.jpg" alt="img"></li>
-      </ul>
-      <div class="bg-fix__3">
-        <div class="overlay"></div>
+      <div class="bg-section">
+        <div class="wrapper">
+          <h2>Чому ми ?</h2>
+          <div class="col-2">
+            <div class="reasons">
+              <div class="col-1-3">
+                <div class="reasons__icon">
+                  <div class="reasons__circle">
+                    <div class="icon icon_cart"></div>
+                  </div>
+                </div>
+                <div class="reasons__intro">
+                  <div class="reasons__title">Павло</div>
+                  <div class="reasons__description">Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons">
+              <div class="col-1-3">
+                <div class="reasons__icon">
+                  <div class="reasons__circle">
+                    <div class="icon icon_-flask"></div>
+                  </div>
+                </div>
+                <div class="reasons__intro">
+                  <div class="reasons__title">Чому саме ми ?</div>
+                  <div class="reasons__description">Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons">
+              <div class="col-1-3">
+                <div class="reasons__icon">
+                  <div class="reasons__circle">
+                    <div class="icon icon_http://wiki.lp.edu.ua/wiki/images/8/80/Doa_Mygal.jpg"></div>
+                  </div>
+                </div>
+                <div class="reasons__intro">
+                  <div class="reasons__title">Павло</div>
+                  <div class="reasons__description">Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons">
+              <div class="col-1-3">
+                <div class="reasons__icon">
+                  <div class="reasons__circle">
+                    <div class="icon icon_cart"></div>
+                  </div>
+                </div>
+                <div class="reasons__intro">
+                  <div class="reasons__title">Павло</div>
+                  <div class="reasons__description">Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons">
+              <div class="col-1-3">
+                <div class="reasons__icon">
+                  <div class="reasons__circle">
+                    <div class="icon icon_cart"></div>
+                  </div>
+                </div>
+                <div class="reasons__intro">
+                  <div class="reasons__title">Павло</div>
+                  <div class="reasons__description">Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons">
+              <div class="col-1-3">
+                <div class="reasons__icon">
+                  <div class="reasons__circle">
+                    <div class="icon icon_cart"></div>
+                  </div>
+                </div>
+                <div class="reasons__intro">
+                  <div class="reasons__title">Павло</div>
+                  <div class="reasons__description">Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons">
+              <div class="col-1-3">
+                <div class="reasons__icon">
+                  <div class="reasons__circle">
+                    <div class="icon icon_cart"></div>
+                  </div>
+                </div>
+                <div class="reasons__intro">
+                  <div class="reasons__title">Павло</div>
+                  <div class="reasons__description">Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития.</div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons">
+              <div class="col-1-3">
+                <div class="reasons__icon">
+                  <div class="reasons__circle">
+                    <div class="icon icon_cart"></div>
+                  </div>
+                </div>
+                <div class="reasons__intro">
+                  <div class="reasons__title">Павло</div>
+                  <div class="reasons__description">Товарищи! консультация с широким активом требуют от нас анализа дальнейших направлений развития.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="footer">
@@ -144,7 +559,9 @@
         </div>
       </div>
       <div class="footer__bot">
-        <div class="wrapper"></div>
+        <div class="wrapper">
+          <div class="col-4"></div>
+        </div>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
