@@ -112,7 +112,7 @@ a {
     background-image: linear-gradient(top, #ffaaaa 0%, #ff9999 100%); }
     .btn-basket a:before {
       content: '';
-      background-image: url("/images/icon.png");
+      background-image: url("../images/icon.png");
       background-repeat: no-repeat;
       background-position: 0px 0px;
       margin-right: 10px;
